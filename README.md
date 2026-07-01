@@ -1,2 +1,10 @@
-# BluePrint-
-A modern academic platform for Polytechnic students featuring results, analytics, notices, study resources, GPA/CGPA tracking, and career tools.
+# Blueprint Sprint 2
+
+Included:
+- Student Management UI
+- Express backend starter
+- SQL schema for students
+Next:
+- Result Management
+- Excel Upload
+- Authentication

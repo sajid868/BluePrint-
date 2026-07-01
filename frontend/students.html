@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Management</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,sans-serif;
+}
+
+body{
+background:#f4f6f9;
+padding:40px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+h1{
+margin-bottom:30px;
+color:#111827;
+}
+
+.form{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+margin-bottom:30px;
+}
+
+input,select{
+
+width:100%;
+padding:14px;
+margin:10px 0;
+border:1px solid #ddd;
+border-radius:10px;
+
+}
+
+button{
+
+padding:14px 25px;
+background:#E53935;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:600;
+
+}
+
+table{
+
+width:100%;
+background:white;
+border-collapse:collapse;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+th{
+
+background:#E53935;
+color:white;
+padding:15px;
+
+}
+
+td{
+
+padding:14px;
+border-bottom:1px solid #eee;
+
+}
+
+.action button{
+
+padding:8px 14px;
+margin-right:5px;
+
+}
+
+.edit{
+
+background:#2563eb;
+
+}
+
+.delete{
+
+background:#dc2626;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Student Management</h1>
+
+<div class="form">
+
+<input
+placeholder="Student Name">
+
+<input
+placeholder="Roll">
+
+<input
+placeholder="Registration">
+
+<input
+placeholder="Department">
+
+<select>
+
+<option>Semester 1</option>
+<option>Semester 2</option>
+<option>Semester 3</option>
+<option>Semester 4</option>
+<option>Semester 5</option>
+<option>Semester 6</option>
+<option>Semester 7</option>
+<option>Semester 8</option>
+
+</select>
+
+<button>
+
+Add Student
+
+</button>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Name</th>
+
+<th>Roll</th>
+
+<th>Registration</th>
+
+<th>Department</th>
+
+<th>Semester</th>
+
+<th>Action</th>
+
+</tr>
+
+<tr>
+
+<td>Demo Student</td>
+
+<td>123456</td>
+
+<td>654321</td>
+
+<td>Electrical</td>
+
+<td>4</td>
+
+<td class="action">
+
+<button class="edit">
+
+Edit
+
+</button>
+
+<button class="delete">
+
+Delete
+
+</button>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</body>
+  </html>
